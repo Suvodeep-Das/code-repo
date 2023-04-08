@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.h-primary{
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-size: 24px;
+}
+
+#home p{
+    font-size: 13px;
+    padding: 10px;
+    color: rgba(43, 11, 11, 0.715);
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid{
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    background: url('images/bg1.webp') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;    
+}
+
+.btn-home{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: black;
+    margin: 17px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-home:hover{
+    padding: 6px 20px;
+    border: 2px solid brown;
+    background-color: white;
+    color: black;
+    margin: 17px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+}
+
+.center{
+    text-align: center;
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+#services .box{
+    border: 2px solid rgba(241, 61, 6, 0.789);
+    padding: 30px;
+    margin: 3px 5px;
+    border-radius: 25px;
+    background-color: #4ddfd63c;
+}
+
+#services .box img{
+    height: 170px;
+    display: block;
+    margin: auto;
+}
+
+#services .box p{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#client-section{
+    height: 220px;
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('images/bg2.webp') no-repeat center center/cover;
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 40px;
+}
+
+.client-item img{
+    height: 124px;
+    flex-direction: column;
+}
+
+.h1, h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav{
+    background-color: rgb(72, 72, 240);
+    
+}
+
+.navbar navbar-expand-lg navbar-yellow bg-light{
+    background-color: black;
+    top: 0;
+}
+
+.container-fluid{
+    background-color: black;
+    
+}
+
+.collapse navbar-collapse li a{
+    background-color: black;
+}
+
+.nav-item{
+    background-color: black;
+}
+
+.contactform{
+    padding: 0 50px;
+    padding-top: 1px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform h1{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+    padding: 30 30px;
+}
+
+.contactform form div{
+    padding: 5px 0;
+    display: flex;
+        flex-direction: column;
+}
+
+#emailHelp{
+    font-size:11px;
+    color:chocolate;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.contactform form div input{
+    width: 50vw;
+    border-radius: 6px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#form-check{
+    flex-direction: row;
+    padding: 5px 5px;
+
+}
+
+#form-check input{
+    cursor: pointer;
+    width: 24px;
+    margin: 2px -5px;
+}
+
+.TeamPic img{
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: -500px;
+}
+
+.Aim{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+
+.OurAim{
+    padding: 40px;
+    font-size: 40px;
+    margin: 35px 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+.OurAim h1{
+    align-items: center;
+    justify-content: center;
+    margin-left: 130vh;
+}
+
+.Team{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.Members{
+    font-size: 20px;
+    margin-left: 50vh;
+    margin-top: 40px;
+    padding: 6px
+}
+
+.aboutcontainer{
+    width: 80%;
+    
+}
+
+.teamimg img{
+    height: 300px;
+    width: 300px;
+    margin-left: 100vh;
+    margin-top: -45vh;
+}
+
+.col-lg-2{
+    padding: 0px 0px;
+}
+
+.container{
+    margin-right: 8vh;
+}

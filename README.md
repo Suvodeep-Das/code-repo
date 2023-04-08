@@ -1,1 +1,3 @@
-# code-repo
+# DrinkIT
+
+E-Commerce Website
