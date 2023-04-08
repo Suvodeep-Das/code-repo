@@ -1,6 +1,6 @@
 # code repo
 
-## You are given a code repository containing a web application built with PHP and CSS. The application is designed to display a list of e-commerce items and their details. However, the codebase has several issues that need to be addressed to improve the functionality and user experience. Your task is to improve the code by addressing the following issues:
+You are given a code repository containing a web application built with PHP and CSS. The application is designed to display a list of e-commerce items and their details. However, the codebase has several issues that need to be addressed to improve the functionality and user experience. Your task is to improve the code by addressing the following issues:
 
 1. Documentation: The code lacks proper documentation. Add clear and concise comments to the code explaining the purpose of each component and function, the inputs it expects, and the outputs it generates.
 
